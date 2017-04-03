@@ -1,11 +1,11 @@
 Pod::Spec.new do |spec|
   spec.name         = 'ASDKFluentExtensions'
   spec.version      = '0.1'
-  spec.license      = { :type => 'BSD' }
-  spec.homepage     = 'https://bitbucket.org/cestebanez/asdkfluentextensions'
+  spec.license      = { :type => 'MIT' }
+  spec.homepage     = 'https://github.com/cesteban/ASDKFluentExtensions'
   spec.authors      = { 'Cesar Estebanez' => 'cestebanez@gmail.com' }
-  spec.summary      = 'Extends AsyncDisplayKit with a fluent API'
-  spec.source       = { :git => 'https://cestebanez@bitbucket.org/cestebanez/asdkfluentextensions.git', :tag => spec.version.to_s }
+  spec.summary      = 'Extend AsyncDisplayKit with a fluent API for Layout'
+  spec.source       = { :git => 'https://github.com/cesteban/ASDKFluentExtensions.git', :tag => spec.version.to_s }
 
   spec.ios.deployment_target = '8.0'
 
