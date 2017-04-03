@@ -107,3 +107,10 @@ ToDo: A pod will be available. Carthage support would be great too.
 ## Usage
 
 Install, import, and get fluent :)
+
+
+## ToDo
+
+- Support Cocoapods and Carthage.
+- Remove code duplication.
+- Tests.
