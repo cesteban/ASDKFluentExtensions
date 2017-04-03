@@ -99,14 +99,11 @@ There is a lot of code duplication in order to provide the same functionality fo
 This could be avoided in Swift using protocol extensions over `ASLayoutElement`, but then the API won't be available from Objective-C. On the other hand, `AsyncDisplayKit` is a pure Objective-C framework, so extending it in Swift would introduce limitations. Check [here](https://gist.github.com/cesteban/e5d265989ed319c0f83bfda3bffdcf8c) the original Swift implementation of `ASDKFluentExtensions`, very early abandoned in favor of the current Objective-C API.
 
 
-## Installation
+## Disclaimer
 
-ToDo: A pod will be available. Carthage support would be great too.
+This is a work in progress. Still not sure how to distribute/evolve this thing. Check [this issue](https://github.com/facebook/AsyncDisplayKit/issues/3238) on AsyncDisplayKit repo for more info.
 
-
-## Usage
-
-Install, import, and get fluent :)
+More updates soon!
 
 
 ## ToDo
