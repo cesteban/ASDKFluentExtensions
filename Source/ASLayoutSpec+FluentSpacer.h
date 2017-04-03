@@ -9,8 +9,12 @@
 
 #import <AsyncDisplayKit/AsyncDisplayKit.h>
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface ASLayoutSpec (FluentSpacer)
 
 + (ASLayoutSpec *)spacer;
 
 @end
+
+NS_ASSUME_NONNULL_END
