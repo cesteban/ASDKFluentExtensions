@@ -1,0 +1,16 @@
+build/*
+DerivedData/*
+*.pbxuser
+xcuserdata
+project.xcworkspace
+*.moved-aside
+*.mo
+*.xcuserstate
+*.xcuserdata
+*.xcuserdatad
+*.xccheckout
+*.orig
+tmp/
+.DS_Store
+
+Pods
