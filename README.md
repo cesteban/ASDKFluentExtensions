@@ -108,6 +108,7 @@ More updates soon!
 
 ## ToDo
 
-- Support Cocoapods and Carthage.
 - Remove code duplication.
 - Tests.
+- Docs.
+- Support Cocoapods and Carthage.
