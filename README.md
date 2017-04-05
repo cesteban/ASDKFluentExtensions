@@ -99,9 +99,32 @@ There is a lot of code duplication in order to provide the same functionality fo
 This could be avoided in Swift using protocol extensions over `ASLayoutElement`, but then the API won't be available from Objective-C. On the other hand, `AsyncDisplayKit` is a pure Objective-C framework, so extending it in Swift would introduce limitations. Check [here](https://gist.github.com/cesteban/e5d265989ed319c0f83bfda3bffdcf8c) the original Swift implementation of `ASDKFluentExtensions`, very early abandoned in favor of the current Objective-C API.
 
 
+## Installation
+
+You can install ASDKFluentExtensions using CocoaPods. Add the pod to your Podfile:
+
+```
+target 'MyApp' do
+  pod "ASDKFluentExtensions"
+end
+```
+
+Then run the following command:
+
+```
+$ pod install
+```
+
+Make sure to import the header:
+
+```
+#import <ASDKFluentExtensions/ASDKFluentExtensions.h>
+```
+
+
 ## Disclaimer
 
-This is a work in progress. Still not sure how to distribute/evolve this thing. Check [this issue](https://github.com/facebook/AsyncDisplayKit/issues/3238) on AsyncDisplayKit repo for more info.
+This is a work in progress. Check [this issue](https://github.com/facebook/AsyncDisplayKit/issues/3238) on AsyncDisplayKit repo for more info.
 
 More updates soon!
 
@@ -111,4 +134,4 @@ More updates soon!
 - Remove code duplication.
 - Tests.
 - Docs.
-- Support Cocoapods and Carthage.
+- Support Carthage.
