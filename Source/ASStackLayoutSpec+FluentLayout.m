@@ -29,16 +29,16 @@
   return self;
 }
 
-// Experimental
-- (instancetype)justifyContent:(ASStackLayoutJustifyContent)justifyContent
-{
-    self.justifyContent = justifyContent;
-    return self;
-}
-
 - (instancetype)withAlignItems:(ASStackLayoutAlignItems)alignItems
 {
   self.alignItems = alignItems;
+  return self;
+}
+
+// Experimental
+- (instancetype)justifyContent:(ASStackLayoutJustifyContent)justifyContent
+{
+  self.justifyContent = justifyContent;
   return self;
 }
 

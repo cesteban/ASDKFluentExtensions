@@ -16,8 +16,9 @@ NS_ASSUME_NONNULL_BEGIN
 - (instancetype)withChildren:(NSArray<id<ASLayoutElement>> *)children;
 - (instancetype)withSpacing:(CGFloat)spacing;
 - (instancetype)withJustifyContent:(ASStackLayoutJustifyContent)justifyContent;
-- (instancetype)justifyContent:(ASStackLayoutJustifyContent)justifyContent; // Experimental
 - (instancetype)withAlignItems:(ASStackLayoutAlignItems)alignItems;
+
+- (instancetype)justifyContent:(ASStackLayoutJustifyContent)justifyContent; // Experimental
 - (instancetype)alignItems:(ASStackLayoutAlignItems)alignItems; // Experimental
 
 @end
