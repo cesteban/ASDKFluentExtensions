@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'ASDKFluentExtensions'
-  spec.version      = '0.2'
+  spec.version      = '0.3'
   spec.license      = { :type => 'MIT' }
   spec.homepage     = 'https://github.com/cesteban/ASDKFluentExtensions'
   spec.authors      = { 'Cesar Estebanez' => 'cestebanez@gmail.com' }
@@ -11,6 +11,6 @@ Pod::Spec.new do |spec|
 
   spec.public_header_files  = 'Source/*.h'
   spec.source_files = 'Source/*.{h,m}'
-  spec.dependency 'AsyncDisplayKit', '~> 2.2'
+  spec.dependency 'Texture', '~> 2.3.2'
 
 end
