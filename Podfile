@@ -8,5 +8,5 @@ workspace 'ASDKFluentExtensions'
 project 'ASDKFluentExtensions.xcodeproj'
 
 target 'ASDKFluentExtensions' do
-	pod 'AsyncDisplayKit', '~> 2.2'
+	pod 'Texture', '~> 2.3.2'
 end
