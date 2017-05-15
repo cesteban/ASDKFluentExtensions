@@ -23,4 +23,4 @@ FOUNDATION_EXPORT const unsigned char ASDKFluentExtensionsVersionString[];
 #import <ASDKFluentExtensions/ASDisplayNode+FluentStyling.h>
 #import <ASDKFluentExtensions/ASLayoutSpec+FluentStyling.h>
 #import <ASDKFluentExtensions/ASLayoutSpec+FluentSpacer.h>
-
+#import <ASDKFluentExtensions/ASAbsoluteLayoutSpec+FluentLayout.h>
