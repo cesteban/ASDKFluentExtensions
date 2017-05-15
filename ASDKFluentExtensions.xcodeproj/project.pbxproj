@@ -19,6 +19,8 @@
 		4E4C2C591E883AE1006703D5 /* ASDisplayNode+FluentStyling.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4C2C571E883AE1006703D5 /* ASDisplayNode+FluentStyling.m */; };
 		4E4C2C5C1E883B54006703D5 /* ASLayoutSpec+FluentStyling.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E4C2C5A1E883B54006703D5 /* ASLayoutSpec+FluentStyling.h */; };
 		4E4C2C5D1E883B54006703D5 /* ASLayoutSpec+FluentStyling.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4C2C5B1E883B54006703D5 /* ASLayoutSpec+FluentStyling.m */; };
+		4E54E6CF1ECA3F0600D5A7B8 /* ASAbsoluteLayoutSpec+FluentLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E54E6CD1ECA3F0600D5A7B8 /* ASAbsoluteLayoutSpec+FluentLayout.h */; };
+		4E54E6D01ECA3F0600D5A7B8 /* ASAbsoluteLayoutSpec+FluentLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E54E6CE1ECA3F0600D5A7B8 /* ASAbsoluteLayoutSpec+FluentLayout.m */; };
 		4E5563F11E88370D00EF65A8 /* ASDKFluentExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E5563E71E88370D00EF65A8 /* ASDKFluentExtensions.framework */; };
 		4EA3020D1E8FB75A0081A61B /* ASLayoutSpec+FluentSpacer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EA3020B1E8FB75A0081A61B /* ASLayoutSpec+FluentSpacer.h */; };
 		4EA3020E1E8FB75A0081A61B /* ASLayoutSpec+FluentSpacer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA3020C1E8FB75A0081A61B /* ASLayoutSpec+FluentSpacer.m */; };
@@ -48,6 +50,8 @@
 		4E4C2C571E883AE1006703D5 /* ASDisplayNode+FluentStyling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ASDisplayNode+FluentStyling.m"; sourceTree = "<group>"; };
 		4E4C2C5A1E883B54006703D5 /* ASLayoutSpec+FluentStyling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ASLayoutSpec+FluentStyling.h"; sourceTree = "<group>"; };
 		4E4C2C5B1E883B54006703D5 /* ASLayoutSpec+FluentStyling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ASLayoutSpec+FluentStyling.m"; sourceTree = "<group>"; };
+		4E54E6CD1ECA3F0600D5A7B8 /* ASAbsoluteLayoutSpec+FluentLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ASAbsoluteLayoutSpec+FluentLayout.h"; sourceTree = "<group>"; };
+		4E54E6CE1ECA3F0600D5A7B8 /* ASAbsoluteLayoutSpec+FluentLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ASAbsoluteLayoutSpec+FluentLayout.m"; sourceTree = "<group>"; };
 		4E5563E71E88370D00EF65A8 /* ASDKFluentExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ASDKFluentExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E5563F01E88370D00EF65A8 /* ASDKFluentExtensionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASDKFluentExtensionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E5563F71E88370D00EF65A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -94,6 +98,8 @@
 				4EA3020C1E8FB75A0081A61B /* ASLayoutSpec+FluentSpacer.m */,
 				4E4C2C4E1E8838FA006703D5 /* ASStackLayoutSpec+FluentLayout.h */,
 				4E4C2C4F1E8838FA006703D5 /* ASStackLayoutSpec+FluentLayout.m */,
+				4E54E6CD1ECA3F0600D5A7B8 /* ASAbsoluteLayoutSpec+FluentLayout.h */,
+				4E54E6CE1ECA3F0600D5A7B8 /* ASAbsoluteLayoutSpec+FluentLayout.m */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -163,6 +169,7 @@
 				4E4C2C461E88385C006703D5 /* ASDKFluentExtensions.h in Headers */,
 				4E4C2C581E883AE1006703D5 /* ASDisplayNode+FluentStyling.h in Headers */,
 				4E4C2C521E8838FA006703D5 /* ASLayoutSpec+FluentLayout.h in Headers */,
+				4E54E6CF1ECA3F0600D5A7B8 /* ASAbsoluteLayoutSpec+FluentLayout.h in Headers */,
 				4E4C2C5C1E883B54006703D5 /* ASLayoutSpec+FluentStyling.h in Headers */,
 				4E4C2C501E8838FA006703D5 /* ASDisplayNode+FluentLayout.h in Headers */,
 				4EA3020D1E8FB75A0081A61B /* ASLayoutSpec+FluentSpacer.h in Headers */,
@@ -305,6 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E54E6D01ECA3F0600D5A7B8 /* ASAbsoluteLayoutSpec+FluentLayout.m in Sources */,
 				4E4C2C5D1E883B54006703D5 /* ASLayoutSpec+FluentStyling.m in Sources */,
 				4E4C2C551E8838FA006703D5 /* ASStackLayoutSpec+FluentLayout.m in Sources */,
 				4E4C2C531E8838FA006703D5 /* ASLayoutSpec+FluentLayout.m in Sources */,
