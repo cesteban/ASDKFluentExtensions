@@ -11,7 +11,7 @@
 
 @implementation ASDisplayNode (FluentStyling)
 
-// Sizing
+#pragma mark - Sizing
 
 - (instancetype)withWidth:(ASDimension)width
 {
@@ -49,7 +49,7 @@
     return self;
 }
 
-// Size Helpers
+#pragma mark - Size Helpers
 
 - (instancetype)withPreferredSize:(CGSize)preferredSize
 {
@@ -123,7 +123,7 @@
     return self;
 }
 
-// ASStackLayoutElement
+#pragma mark - ASStackLayoutElement
 
 - (instancetype)withSpacingBefore:(CGFloat)spacingBefore
 {
@@ -180,7 +180,7 @@
     return self;
 }
 
-// ASAbsoluteLayoutElement
+#pragma mark - ASAbsoluteLayoutElement
 
 - (instancetype)withLayoutPosition:(CGPoint)layoutPosition
 {
