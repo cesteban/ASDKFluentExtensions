@@ -1,6 +1,6 @@
 # ASDKFluentExtensions
 
-ASDKFluentExtensions are a set of Objective-C categories that extend `Texture` with a fluent interface for layout code. This fluent style is more visual, improves readability (less visual scanning to grasp layout structure), and makes layout more concise and easier to maintain. It also enables **composition** of layout specs and styling.
+ASDKFluentExtensions is a set of Objective-C categories that extends `Texture` with a fluent interface for layout code. This fluent style is more visual, improves readability (less visual scanning to grasp layout structure), and makes layout more concise and easier to maintain. It also enables **composition** of layout specs and styling.
 
 Imagine you want to overlay an image with a gradient. Then overlay the gradient with a title that must be positioned in the bottom right corner of the gradient, with some insets. Finally, the whole thing should have an aspect ratio of 1. With ASDKFluentExtensions you can write layout code like this:
 
@@ -15,9 +15,11 @@ override func layoutSpecThatFits(_ constrainedSize: ASSizeRange) -> ASLayoutSpec
 }
 ```
 
-Both `ASDisplayNode` and `ASLayoutSpec` subclasses can be wrapped within a `ASLayoutSpec` using this fluent syntax. All ASDKFluentExtensions methods return an object conforming to `ASLayoutElement`, so fluent layouts can be chained together.
+Both `ASDisplayNode` and `ASLayoutSpec` subclasses can be wrapped within a `ASLayoutSpec` using this fluent syntax. Just start typing `.with` and look for the appropriate completion:
 
-Modifications of the `style` property can also be composed with layout definitions. This way the information flows in a meaningful order. Look at the modifications of `flexGrow` and `alignSelf` in the following example:
+![autocompletion with](https://d2ppvlu71ri8gs.cloudfront.net/items/0t1B3R321W1z0k2S2Y16/Screen%20Recording%202017-05-16%20at%2011.16%20PM.gif)
+
+All ASDKFluentExtensions methods return an object conforming to `ASLayoutElement`, so fluent layouts can be chained together. Furthermore, modifications of the `style` property can also be composed with layout definitions. This way the information flows in a meaningful order. Look at the modifications of `flexGrow` and `alignSelf` in the following example:
 
 ```swift
 func layoutSpecThatFits(_ constrainedSize: ASSizeRange) -> ASLayoutSpec {
@@ -37,7 +39,7 @@ func layoutSpecThatFits(_ constrainedSize: ASSizeRange) -> ASLayoutSpec {
 }
 ```
 
-ASDKFluentExtensions also provide categories over `ASStackLayoutSpec` and `ASAbsoluteLayoutSpec` which makes it possible to inline them in layout code with a very readable style:
+ASDKFluentExtensions also provide categories over `ASStackLayoutSpec` and `ASAbsoluteLayoutSpec` which makes it possible to inline these specs in layout code with a very readable style:
 
 ```swift
 func fluentLayoutSpecThatFits(_ constrainedSize: ASSizeRange) -> ASLayoutSpec {
@@ -93,7 +95,7 @@ func layoutSpecThatFits(_ constrainedSize: ASSizeRange) -> ASLayoutSpec {
 }
 ```
 
-This layout reads from top to bottom without interruptions. The outermost code define the general structure, and inner parts define the details. The information flows in a meaningful order, so less visual scanning is needed. Also, it is much faster to add, remove, and reorganize specs, for example during debugging or prototyping. Finally, note that modifications of style properties are also composable with layout specs (see usages of `withPreferredSize` or `withFlexShrink` inline with layout specs definition). This avoids interruptions on how the code visually flows.
+This layout reads from top to bottom without interruptions. The outermost code define the general structure, and inner parts define the details. The information flows in a meaningful order, so less visual scanning is needed. Also, it is much faster to add, remove, and reorganize specs, for example during debugging or prototyping. Finally, note how modifications of style properties are composable with layout specs (see usages of `withPreferredSize` or `withFlexShrink` inline with layout specs definition). This avoids interruptions on how the code visually flows.
 
 ### More About Fluent Interfaces
 
@@ -152,7 +154,7 @@ A solution will be available soon...
 
 ## Discussion
 
-ASDKFluentExtensions are just a bunch of Objective-C categories over `ASDisplayNode`, `ASLayoutSpec`, and `ASStackLayoutSpec` that create and return the desired layout spec passing `self` as child:
+ASDKFluentExtensions are just a bunch of Objective-C categories over `ASDisplayNode`, `ASLayoutSpec`, `ASStackLayoutSpec`, and `ASAbsoluteLayoutSpec` that create and return the desired layout spec passing `self` as child:
 
 ```objective-c
 - (ASOverlayLayoutSpec *)withOverlay:(id<ASLayoutElement>)overlay
@@ -179,3 +181,8 @@ This makes layout and styling **composable**, and enables a very readable fluent
 There is a lot of code duplication in order to provide the same functionality for both `ASDisplayNode` and `ASLayoutSpec`.
 
 This could be avoided in Swift using protocol extensions over `ASLayoutElement`, but then the API won't be available from Objective-C. On the other hand, `Texture` is a pure Objective-C framework, so extending it in Swift would introduce limitations. Check [here](https://gist.github.com/cesteban/e5d265989ed319c0f83bfda3bffdcf8c) the original Swift implementation of ASDKFluentExtensions, very early abandoned in favor of the current Objective-C API.
+
+
+## Contribute
+
+Send all the feedback you have, and please contribute. Pull Requests and suggestions on how to improve this component are very much appreciated.
