@@ -15,7 +15,7 @@ override func layoutSpecThatFits(_ constrainedSize: ASSizeRange) -> ASLayoutSpec
 }
 ```
 
-Both `ASDisplayNode` and `ASLayoutSpec` subclasses can be wrapped within a `ASLayoutSpec` using this fluent syntax. Just start typing `.with` and look for the appropriate completion:
+Both `ASDisplayNode` and `ASLayoutSpec` subclasses can be wrapped within an `ASLayoutSpec` using this fluent syntax. Just start typing `.with` and look for the appropriate completion:
 
 ![autocompletion with](https://d2ppvlu71ri8gs.cloudfront.net/items/0t1B3R321W1z0k2S2Y16/Screen%20Recording%202017-05-16%20at%2011.16%20PM.gif)
 
