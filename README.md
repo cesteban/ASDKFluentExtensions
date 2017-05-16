@@ -58,7 +58,7 @@ func fluentLayoutSpecThatFits(_ constrainedSize: ASSizeRange) -> ASLayoutSpec {
 There is even a category to conveniently create spacers!
 
 ```swift
-let header = ASStackLayoutSpec.withChildren([userName, ASLayoutSpec.spacer(), lastTimeOnline])
+let header = ASStackLayoutSpec().withChildren([userName, ASLayoutSpec.spacer(), lastTimeOnline])
 ```
 
 Finally, this is a more contrived example, the layout code of `PhotoTableNodeCell` from the well known [ASDKgram-Swift](https://github.com/TextureGroup/Texture/tree/master/examples_extra/ASDKgram-Swift) example rewritten to use fluent layout:
@@ -104,7 +104,7 @@ If you want to know more about Fluent API's, make sure to check [this paper](htt
 
 ## Documentation
 
-There are a several examples on how to use ASDKFluentExtensions to write fluent layout code available in this [fork of Texture](https://github.com/cesteban/Texture). They are clones of existing examples included in the main Texture repo, modified to illustrate ASDKFluentExtensions. The idea is that people wanting to approach this fluent syntax can have a set of familiar examples to look at.
+There are a several examples on how to use ASDKFluentExtensions to write fluent layout code available in this [fork of Texture](https://github.com/cesteban/Texture/tree/fluent-extensions). They are clones of existing examples included in the main Texture repo, modified to illustrate ASDKFluentExtensions. The idea is that people wanting to approach this fluent syntax can have a set of familiar examples to look at.
 
 This is the list of currently available examples:
 
