@@ -7,24 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4E4C2C461E88385C006703D5 /* ASDKFluentExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E4C2C451E88385C006703D5 /* ASDKFluentExtensions.h */; };
-		4E4C2C491E883874006703D5 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4E4C2C481E883874006703D5 /* Info.plist */; };
-		4E4C2C501E8838FA006703D5 /* ASDisplayNode+FluentLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E4C2C4A1E8838FA006703D5 /* ASDisplayNode+FluentLayout.h */; };
+		4E4C2C461E88385C006703D5 /* ASDKFluentExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E4C2C451E88385C006703D5 /* ASDKFluentExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E4C2C501E8838FA006703D5 /* ASDisplayNode+FluentLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E4C2C4A1E8838FA006703D5 /* ASDisplayNode+FluentLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4E4C2C511E8838FA006703D5 /* ASDisplayNode+FluentLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4C2C4B1E8838FA006703D5 /* ASDisplayNode+FluentLayout.m */; };
-		4E4C2C521E8838FA006703D5 /* ASLayoutSpec+FluentLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E4C2C4C1E8838FA006703D5 /* ASLayoutSpec+FluentLayout.h */; };
+		4E4C2C521E8838FA006703D5 /* ASLayoutSpec+FluentLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E4C2C4C1E8838FA006703D5 /* ASLayoutSpec+FluentLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4E4C2C531E8838FA006703D5 /* ASLayoutSpec+FluentLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4C2C4D1E8838FA006703D5 /* ASLayoutSpec+FluentLayout.m */; };
-		4E4C2C541E8838FA006703D5 /* ASStackLayoutSpec+FluentLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E4C2C4E1E8838FA006703D5 /* ASStackLayoutSpec+FluentLayout.h */; };
+		4E4C2C541E8838FA006703D5 /* ASStackLayoutSpec+FluentLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E4C2C4E1E8838FA006703D5 /* ASStackLayoutSpec+FluentLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4E4C2C551E8838FA006703D5 /* ASStackLayoutSpec+FluentLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4C2C4F1E8838FA006703D5 /* ASStackLayoutSpec+FluentLayout.m */; };
-		4E4C2C581E883AE1006703D5 /* ASDisplayNode+FluentStyling.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E4C2C561E883AE1006703D5 /* ASDisplayNode+FluentStyling.h */; };
+		4E4C2C581E883AE1006703D5 /* ASDisplayNode+FluentStyling.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E4C2C561E883AE1006703D5 /* ASDisplayNode+FluentStyling.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4E4C2C591E883AE1006703D5 /* ASDisplayNode+FluentStyling.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4C2C571E883AE1006703D5 /* ASDisplayNode+FluentStyling.m */; };
-		4E4C2C5C1E883B54006703D5 /* ASLayoutSpec+FluentStyling.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E4C2C5A1E883B54006703D5 /* ASLayoutSpec+FluentStyling.h */; };
+		4E4C2C5C1E883B54006703D5 /* ASLayoutSpec+FluentStyling.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E4C2C5A1E883B54006703D5 /* ASLayoutSpec+FluentStyling.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4E4C2C5D1E883B54006703D5 /* ASLayoutSpec+FluentStyling.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4C2C5B1E883B54006703D5 /* ASLayoutSpec+FluentStyling.m */; };
-		4E54E6CF1ECA3F0600D5A7B8 /* ASAbsoluteLayoutSpec+FluentLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E54E6CD1ECA3F0600D5A7B8 /* ASAbsoluteLayoutSpec+FluentLayout.h */; };
+		4E54E6CF1ECA3F0600D5A7B8 /* ASAbsoluteLayoutSpec+FluentLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E54E6CD1ECA3F0600D5A7B8 /* ASAbsoluteLayoutSpec+FluentLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4E54E6D01ECA3F0600D5A7B8 /* ASAbsoluteLayoutSpec+FluentLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E54E6CE1ECA3F0600D5A7B8 /* ASAbsoluteLayoutSpec+FluentLayout.m */; };
 		4E5563F11E88370D00EF65A8 /* ASDKFluentExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E5563E71E88370D00EF65A8 /* ASDKFluentExtensions.framework */; };
-		4EA3020D1E8FB75A0081A61B /* ASLayoutSpec+FluentSpacer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EA3020B1E8FB75A0081A61B /* ASLayoutSpec+FluentSpacer.h */; };
+		4EA3020D1E8FB75A0081A61B /* ASLayoutSpec+FluentSpacer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EA3020B1E8FB75A0081A61B /* ASLayoutSpec+FluentSpacer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4EA3020E1E8FB75A0081A61B /* ASLayoutSpec+FluentSpacer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA3020C1E8FB75A0081A61B /* ASLayoutSpec+FluentSpacer.m */; };
-		E0E4B7C5DAA0903FC5CD1F79 /* Pods_ASDKFluentExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FA5CDA027E97EAA23D26D22 /* Pods_ASDKFluentExtensions.framework */; };
+		4EC0F5E31ECBC95900260159 /* AsyncDisplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EC0F5E21ECBC95900260159 /* AsyncDisplayKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,9 +56,7 @@
 		4E5563F71E88370D00EF65A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EA3020B1E8FB75A0081A61B /* ASLayoutSpec+FluentSpacer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ASLayoutSpec+FluentSpacer.h"; sourceTree = "<group>"; };
 		4EA3020C1E8FB75A0081A61B /* ASLayoutSpec+FluentSpacer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ASLayoutSpec+FluentSpacer.m"; sourceTree = "<group>"; };
-		6FA5CDA027E97EAA23D26D22 /* Pods_ASDKFluentExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASDKFluentExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF2198A5331AA4464DC40F28 /* Pods-ASDKFluentExtensions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASDKFluentExtensions.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASDKFluentExtensions/Pods-ASDKFluentExtensions.debug.xcconfig"; sourceTree = "<group>"; };
-		EAF741C10B35CB62044B5986 /* Pods-ASDKFluentExtensions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASDKFluentExtensions.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASDKFluentExtensions/Pods-ASDKFluentExtensions.release.xcconfig"; sourceTree = "<group>"; };
+		4EC0F5E21ECBC95900260159 /* AsyncDisplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AsyncDisplayKit.framework; path = Carthage/Build/iOS/AsyncDisplayKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0E4B7C5DAA0903FC5CD1F79 /* Pods_ASDKFluentExtensions.framework in Frameworks */,
+				4EC0F5E31ECBC95900260159 /* AsyncDisplayKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,8 +116,7 @@
 				4E5563F41E88370D00EF65A8 /* Tests */,
 				4E4C2C471E883874006703D5 /* Resources */,
 				4E5563E81E88370D00EF65A8 /* Products */,
-				CF8AC1859E532E09CDABE0F8 /* Pods */,
-				7DFF73D026E905C9B6B44268 /* Frameworks */,
+				4EC0F5E11ECBC95800260159 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -141,21 +137,12 @@
 			path = Tests;
 			sourceTree = "<group>";
 		};
-		7DFF73D026E905C9B6B44268 /* Frameworks */ = {
+		4EC0F5E11ECBC95800260159 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6FA5CDA027E97EAA23D26D22 /* Pods_ASDKFluentExtensions.framework */,
+				4EC0F5E21ECBC95900260159 /* AsyncDisplayKit.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		CF8AC1859E532E09CDABE0F8 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				CF2198A5331AA4464DC40F28 /* Pods-ASDKFluentExtensions.debug.xcconfig */,
-				EAF741C10B35CB62044B5986 /* Pods-ASDKFluentExtensions.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,12 +170,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E5563FB1E88370D00EF65A8 /* Build configuration list for PBXNativeTarget "ASDKFluentExtensions" */;
 			buildPhases = (
-				B4F35D921E0AB769073A5505 /* [CP] Check Pods Manifest.lock */,
 				4E5563E21E88370D00EF65A8 /* Sources */,
 				4E5563E31E88370D00EF65A8 /* Frameworks */,
 				4E5563E41E88370D00EF65A8 /* Headers */,
 				4E5563E51E88370D00EF65A8 /* Resources */,
-				1224CEB308A01F000CCFCFD9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -261,7 +246,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E4C2C491E883874006703D5 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,39 +257,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		1224CEB308A01F000CCFCFD9 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASDKFluentExtensions/Pods-ASDKFluentExtensions-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B4F35D921E0AB769073A5505 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4E5563E21E88370D00EF65A8 /* Sources */ = {
@@ -438,7 +389,6 @@
 		};
 		4E5563FC1E88370D00EF65A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CF2198A5331AA4464DC40F28 /* Pods-ASDKFluentExtensions.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
@@ -446,6 +396,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Resources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -457,7 +411,6 @@
 		};
 		4E5563FD1E88370D00EF65A8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EAF741C10B35CB62044B5986 /* Pods-ASDKFluentExtensions.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
@@ -465,6 +418,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Resources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
