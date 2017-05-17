@@ -121,7 +121,7 @@ This is the list of currently available examples:
 
 ## Installation
 
-ASDKFluentExtensions currently support Cocoapods. Carthage support is on its way.
+ASDKFluentExtensions currently support Cocoapods and Carthage.
 
 ### Cocoapods 
 
@@ -145,11 +145,21 @@ Make sure to import the header:
 #import <ASDKFluentExtensions/ASDKFluentExtensions.h>
 ```
 
-### Carthage (WIP)
+### Carthage
 
-ASDKFluentExtensions project has a dependency on Texture which is currently managed by Cocoapods. This interferes with the possibility of supporting Carthage since the framework cannot build automatically without the `pod install` phase.
+From version 0.6 you can build ASDKFluentExtensions using Carthage. Add the following line to your Cartfile:
 
-A solution will be available soon...
+```
+github "cesteban/ASDKFluentExtensions" >= 0.6
+```
+
+Then build the framework:
+
+```
+carthage update
+```
+
+Finally, add the generated framework to your project as usual.
 
 
 ## Discussion
