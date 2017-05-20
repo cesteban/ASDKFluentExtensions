@@ -23,6 +23,8 @@
 		4E5563F11E88370D00EF65A8 /* ASDKFluentExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E5563E71E88370D00EF65A8 /* ASDKFluentExtensions.framework */; };
 		4EA3020D1E8FB75A0081A61B /* ASLayoutSpec+FluentSpacer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EA3020B1E8FB75A0081A61B /* ASLayoutSpec+FluentSpacer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4EA3020E1E8FB75A0081A61B /* ASLayoutSpec+FluentSpacer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA3020C1E8FB75A0081A61B /* ASLayoutSpec+FluentSpacer.m */; };
+		4EB03EDD1ED04E220036DF80 /* ASDisplayNode+FluentLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB03EDC1ED04E220036DF80 /* ASDisplayNode+FluentLayoutTests.m */; };
+		4EB03EDE1ED04F660036DF80 /* AsyncDisplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EC0F5E21ECBC95900260159 /* AsyncDisplayKit.framework */; };
 		4EC0F5E31ECBC95900260159 /* AsyncDisplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EC0F5E21ECBC95900260159 /* AsyncDisplayKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +58,7 @@
 		4E5563F71E88370D00EF65A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EA3020B1E8FB75A0081A61B /* ASLayoutSpec+FluentSpacer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ASLayoutSpec+FluentSpacer.h"; sourceTree = "<group>"; };
 		4EA3020C1E8FB75A0081A61B /* ASLayoutSpec+FluentSpacer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ASLayoutSpec+FluentSpacer.m"; sourceTree = "<group>"; };
+		4EB03EDC1ED04E220036DF80 /* ASDisplayNode+FluentLayoutTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ASDisplayNode+FluentLayoutTests.m"; sourceTree = "<group>"; };
 		4EC0F5E21ECBC95900260159 /* AsyncDisplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AsyncDisplayKit.framework; path = Carthage/Build/iOS/AsyncDisplayKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,6 +76,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E5563F11E88370D00EF65A8 /* ASDKFluentExtensions.framework in Frameworks */,
+				4EB03EDE1ED04F660036DF80 /* AsyncDisplayKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				4E5563F71E88370D00EF65A8 /* Info.plist */,
+				4EB03EDC1ED04E220036DF80 /* ASDisplayNode+FluentLayoutTests.m */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -277,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EB03EDD1ED04E220036DF80 /* ASDisplayNode+FluentLayoutTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,8 +441,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = SU2K8SQQ8Y;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Resources/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks \"$(PROJECT_DIR)/Carthage/Build/iOS\"";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cestebanez.ASDKFluentExtensionsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -446,8 +456,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = SU2K8SQQ8Y;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Resources/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks \"$(PROJECT_DIR)/Carthage/Build/iOS\"";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cestebanez.ASDKFluentExtensionsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
