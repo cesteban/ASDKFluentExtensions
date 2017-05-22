@@ -75,51 +75,15 @@
     return self;
 }
 
-- (instancetype)withPreferredLayoutWidth:(ASDimension)preferredLayoutWidth
-{
-    self.style.preferredLayoutSize = ASLayoutSizeMake(preferredLayoutWidth, ASDimensionAuto);
-    return self;
-}
-
-- (instancetype)withPreferredLayoutHeight:(ASDimension)preferredLayoutHeight
-{
-    self.style.preferredLayoutSize = ASLayoutSizeMake(ASDimensionAuto, preferredLayoutHeight);
-    return self;
-}
-
 - (instancetype)withMinLayoutSize:(ASLayoutSize)minLayoutSize
 {
     self.style.minLayoutSize = minLayoutSize;
     return self;
 }
 
-- (instancetype)withMinLayoutWidth:(ASDimension)minLayoutWidth
-{
-    self.style.minLayoutSize = ASLayoutSizeMake(minLayoutWidth, ASDimensionAuto);
-    return self;
-}
-
-- (instancetype)withMinLayoutHeight:(ASDimension)minLayoutHeight
-{
-    self.style.minLayoutSize = ASLayoutSizeMake(ASDimensionAuto, minLayoutHeight);
-    return self;
-}
-
 - (instancetype)withMaxLayoutSize:(ASLayoutSize)maxLayoutSize
 {
     self.style.maxLayoutSize = maxLayoutSize;
-    return self;
-}
-
-- (instancetype)withMaxLayoutWidth:(ASDimension)maxLayoutWidth
-{
-    self.style.maxLayoutSize = ASLayoutSizeMake(maxLayoutWidth, ASDimensionAuto);
-    return self;
-}
-
-- (instancetype)withMaxLayoutHeight:(ASDimension)maxLayoutHeight
-{
-    self.style.maxLayoutSize = ASLayoutSizeMake(ASDimensionAuto, maxLayoutHeight);
     return self;
 }
 

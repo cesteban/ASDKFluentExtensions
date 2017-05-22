@@ -91,44 +91,14 @@ NS_ASSUME_NONNULL_BEGIN
 - (instancetype)withPreferredLayoutSize:(ASLayoutSize)preferredLayoutSize;
 
 /**
- * Modifies the style.preferredLayoutWidth property of the caller and returns self.
- */
-- (instancetype)withPreferredLayoutWidth:(ASDimension)preferredLayoutWidth;
-
-/**
- * Modifies the style.preferredLayoutHeight property of the caller and returns self.
- */
-- (instancetype)withPreferredLayoutHeight:(ASDimension)preferredLayoutHeight;
-
-/**
  * Modifies the style.minLayoutSize property of the caller and returns self.
  */
 - (instancetype)withMinLayoutSize:(ASLayoutSize)minLayoutSize;
 
 /**
- * Modifies the style.minLayoutWidth property of the caller and returns self.
- */
-- (instancetype)withMinLayoutWidth:(ASDimension)minLayoutWidth;
-
-/**
- * Modifies the style.minLayoutHeight property of the caller and returns self.
- */
-- (instancetype)withMinLayoutHeight:(ASDimension)minLayoutHeight;
-
-/**
  * Modifies the style.maxLayoutSize property of the caller and returns self.
  */
 - (instancetype)withMaxLayoutSize:(ASLayoutSize)maxLayoutSize;
-
-/**
- * Modifies the style.maxLayoutWidth property of the caller and returns self.
- */
-- (instancetype)withMaxLayoutWidth:(ASDimension)maxLayoutWidth;
-
-/**
- * Modifies the style.maxLayoutHeight property of the caller and returns self.
- */
-- (instancetype)withMaxLayoutHeight:(ASDimension)maxLayoutHeight;
 
 #pragma mark - ASStackLayoutElement
 

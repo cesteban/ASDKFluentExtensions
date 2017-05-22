@@ -1,5 +1,7 @@
 github "pinterest/PINOperation" "1.0.3"
+github "specta/expecta" "7c048e9af9c50cf8782e55abf57a9f4a48d8db1a"
 git "https://chromium.googlesource.com/webm/libwebp" "v0.5.1"
+github "specta/specta" "v1.0.6"
 github "pinterest/PINCache" "3.0.1-beta.4"
 github "pinterest/PINRemoteImage" "3.0.0-beta.9"
 github "TextureGroup/Texture" "2.3.2"

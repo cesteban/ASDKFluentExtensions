@@ -21,8 +21,17 @@
 		4E54E6CF1ECA3F0600D5A7B8 /* ASAbsoluteLayoutSpec+FluentLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E54E6CD1ECA3F0600D5A7B8 /* ASAbsoluteLayoutSpec+FluentLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4E54E6D01ECA3F0600D5A7B8 /* ASAbsoluteLayoutSpec+FluentLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E54E6CE1ECA3F0600D5A7B8 /* ASAbsoluteLayoutSpec+FluentLayout.m */; };
 		4E5563F11E88370D00EF65A8 /* ASDKFluentExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E5563E71E88370D00EF65A8 /* ASDKFluentExtensions.framework */; };
+		4E72732C1ED1D1A200C46520 /* ASLayoutElement+FluentStylingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E72732B1ED1D1A200C46520 /* ASLayoutElement+FluentStylingTests.m */; };
+		4E72732E1ED1D9B900C46520 /* Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E72732D1ED1D9B900C46520 /* Helpers.m */; };
+		4E7273301ED1EF4B00C46520 /* ASStackLayoutSpec+FluentLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E72732F1ED1EF4B00C46520 /* ASStackLayoutSpec+FluentLayoutTests.m */; };
+		4E7273321ED1EF9300C46520 /* ASLayoutSpec+FluentSpacerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7273311ED1EF9300C46520 /* ASLayoutSpec+FluentSpacerTests.m */; };
+		4E7273341ED1F52700C46520 /* ASAbsoluteLayoutSpec+FluentLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7273331ED1F52700C46520 /* ASAbsoluteLayoutSpec+FluentLayoutTests.m */; };
 		4EA3020D1E8FB75A0081A61B /* ASLayoutSpec+FluentSpacer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EA3020B1E8FB75A0081A61B /* ASLayoutSpec+FluentSpacer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4EA3020E1E8FB75A0081A61B /* ASLayoutSpec+FluentSpacer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA3020C1E8FB75A0081A61B /* ASLayoutSpec+FluentSpacer.m */; };
+		4EB03EDE1ED04F660036DF80 /* AsyncDisplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EC0F5E21ECBC95900260159 /* AsyncDisplayKit.framework */; };
+		4EB03EE11ED05D640036DF80 /* Expecta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EB03EDF1ED05D640036DF80 /* Expecta.framework */; };
+		4EB03EE21ED05D640036DF80 /* Specta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EB03EE01ED05D640036DF80 /* Specta.framework */; };
+		4EB03EE41ED05DB60036DF80 /* ASLayoutElement+FluentLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB03EE31ED05DB60036DF80 /* ASLayoutElement+FluentLayoutTests.m */; };
 		4EC0F5E31ECBC95900260159 /* AsyncDisplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EC0F5E21ECBC95900260159 /* AsyncDisplayKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,8 +63,17 @@
 		4E5563E71E88370D00EF65A8 /* ASDKFluentExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ASDKFluentExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E5563F01E88370D00EF65A8 /* ASDKFluentExtensionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASDKFluentExtensionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E5563F71E88370D00EF65A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E72732A1ED1D13400C46520 /* Helpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Helpers.h; sourceTree = "<group>"; };
+		4E72732B1ED1D1A200C46520 /* ASLayoutElement+FluentStylingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ASLayoutElement+FluentStylingTests.m"; sourceTree = "<group>"; };
+		4E72732D1ED1D9B900C46520 /* Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helpers.m; sourceTree = "<group>"; };
+		4E72732F1ED1EF4B00C46520 /* ASStackLayoutSpec+FluentLayoutTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ASStackLayoutSpec+FluentLayoutTests.m"; sourceTree = "<group>"; };
+		4E7273311ED1EF9300C46520 /* ASLayoutSpec+FluentSpacerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ASLayoutSpec+FluentSpacerTests.m"; sourceTree = "<group>"; };
+		4E7273331ED1F52700C46520 /* ASAbsoluteLayoutSpec+FluentLayoutTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ASAbsoluteLayoutSpec+FluentLayoutTests.m"; sourceTree = "<group>"; };
 		4EA3020B1E8FB75A0081A61B /* ASLayoutSpec+FluentSpacer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ASLayoutSpec+FluentSpacer.h"; sourceTree = "<group>"; };
 		4EA3020C1E8FB75A0081A61B /* ASLayoutSpec+FluentSpacer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ASLayoutSpec+FluentSpacer.m"; sourceTree = "<group>"; };
+		4EB03EDF1ED05D640036DF80 /* Expecta.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Expecta.framework; path = Carthage/Build/iOS/Expecta.framework; sourceTree = "<group>"; };
+		4EB03EE01ED05D640036DF80 /* Specta.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Specta.framework; path = Carthage/Build/iOS/Specta.framework; sourceTree = "<group>"; };
+		4EB03EE31ED05DB60036DF80 /* ASLayoutElement+FluentLayoutTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ASLayoutElement+FluentLayoutTests.m"; sourceTree = "<group>"; };
 		4EC0F5E21ECBC95900260159 /* AsyncDisplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AsyncDisplayKit.framework; path = Carthage/Build/iOS/AsyncDisplayKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,6 +91,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E5563F11E88370D00EF65A8 /* ASDKFluentExtensions.framework in Frameworks */,
+				4EB03EDE1ED04F660036DF80 /* AsyncDisplayKit.framework in Frameworks */,
+				4EB03EE11ED05D640036DF80 /* Expecta.framework in Frameworks */,
+				4EB03EE21ED05D640036DF80 /* Specta.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +153,13 @@
 		4E5563F41E88370D00EF65A8 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				4E72732A1ED1D13400C46520 /* Helpers.h */,
+				4E72732D1ED1D9B900C46520 /* Helpers.m */,
+				4EB03EE31ED05DB60036DF80 /* ASLayoutElement+FluentLayoutTests.m */,
+				4E72732B1ED1D1A200C46520 /* ASLayoutElement+FluentStylingTests.m */,
+				4E7273311ED1EF9300C46520 /* ASLayoutSpec+FluentSpacerTests.m */,
+				4E72732F1ED1EF4B00C46520 /* ASStackLayoutSpec+FluentLayoutTests.m */,
+				4E7273331ED1F52700C46520 /* ASAbsoluteLayoutSpec+FluentLayoutTests.m */,
 				4E5563F71E88370D00EF65A8 /* Info.plist */,
 			);
 			path = Tests;
@@ -140,6 +168,8 @@
 		4EC0F5E11ECBC95800260159 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4EB03EDF1ED05D640036DF80 /* Expecta.framework */,
+				4EB03EE01ED05D640036DF80 /* Specta.framework */,
 				4EC0F5E21ECBC95900260159 /* AsyncDisplayKit.framework */,
 			);
 			name = Frameworks;
@@ -277,6 +307,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E7273321ED1EF9300C46520 /* ASLayoutSpec+FluentSpacerTests.m in Sources */,
+				4E72732C1ED1D1A200C46520 /* ASLayoutElement+FluentStylingTests.m in Sources */,
+				4EB03EE41ED05DB60036DF80 /* ASLayoutElement+FluentLayoutTests.m in Sources */,
+				4E7273301ED1EF4B00C46520 /* ASStackLayoutSpec+FluentLayoutTests.m in Sources */,
+				4E72732E1ED1D9B900C46520 /* Helpers.m in Sources */,
+				4E7273341ED1F52700C46520 /* ASAbsoluteLayoutSpec+FluentLayoutTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,8 +471,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = SU2K8SQQ8Y;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Resources/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks \"$(PROJECT_DIR)/Carthage/Build/iOS\"";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cestebanez.ASDKFluentExtensionsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -446,8 +486,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = SU2K8SQQ8Y;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Resources/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks \"$(PROJECT_DIR)/Carthage/Build/iOS\"";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cestebanez.ASDKFluentExtensionsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
