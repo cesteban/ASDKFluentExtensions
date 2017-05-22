@@ -1,6 +1,7 @@
 # ASDKFluentExtensions
 
-ASDKFluentExtensions is a set of Objective-C categories that extends `Texture` with a fluent interface for layout code. This fluent style is more visual, improves readability (less visual scanning to grasp layout structure), and makes layout more concise and easier to maintain. It also enables **composition** of layout specs and styling.
+
+ASDKFluentExtensions is a set of Objective-C categories that extends [Texture](https://github.com/texturegroup/texture) with a fluent interface for layout code. This fluent style is more visual, improves readability (less visual scanning to grasp layout structure), and makes layout more concise and easier to maintain. It also enables **composition** of layout specs and styling.
 
 Imagine you want to overlay an image with a gradient. Then overlay the gradient with a title that must be positioned in the bottom right corner of the gradient, with some insets. Finally, the whole thing should have an aspect ratio of 1. With ASDKFluentExtensions you can write layout code like this:
 
