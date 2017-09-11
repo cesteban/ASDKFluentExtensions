@@ -36,11 +36,6 @@ NS_ASSUME_NONNULL_BEGIN
 @interface ASStackLayoutSpec (FluentLayout)
 
 /**
- * Adds the provided ASLayoutElement's as children of the caller and returns self.
- */
-- (instancetype)withChildren:(NSArray<id<ASLayoutElement>> *)children;
-
-/**
  * Modifies the spacing property of the caller and returns self.
  */
 - (instancetype)withSpacing:(CGFloat)spacing;

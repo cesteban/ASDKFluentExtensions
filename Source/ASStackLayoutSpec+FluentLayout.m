@@ -11,12 +11,6 @@
 
 @implementation ASStackLayoutSpec (FluentLayout)
 
-- (instancetype)withChildren:(NSArray<id<ASLayoutElement>> *)children
-{
-  self.children = children;
-  return self;
-}
-
 - (instancetype)withSpacing:(CGFloat)spacing
 {
   self.spacing = spacing;
