@@ -1,36 +1,36 @@
 PODS:
-  - PINCache (3.0.1-beta.4):
-    - PINCache/Arc-exception-safe (= 3.0.1-beta.4)
-    - PINCache/Core (= 3.0.1-beta.4)
-  - PINCache/Arc-exception-safe (3.0.1-beta.4):
+  - PINCache (3.0.1-beta.5):
+    - PINCache/Arc-exception-safe (= 3.0.1-beta.5)
+    - PINCache/Core (= 3.0.1-beta.5)
+  - PINCache/Arc-exception-safe (3.0.1-beta.5):
     - PINCache/Core
-  - PINCache/Core (3.0.1-beta.4):
+  - PINCache/Core (3.0.1-beta.5):
     - PINOperation (= 1.0.3)
   - PINOperation (1.0.3)
-  - PINRemoteImage/Core (3.0.0-beta.9):
+  - PINRemoteImage/Core (3.0.0-beta.11):
     - PINOperation
-  - PINRemoteImage/iOS (3.0.0-beta.9):
+  - PINRemoteImage/iOS (3.0.0-beta.11):
     - PINRemoteImage/Core
-  - PINRemoteImage/PINCache (3.0.0-beta.9):
-    - PINCache (= 3.0.1-beta.4)
+  - PINRemoteImage/PINCache (3.0.0-beta.11):
+    - PINCache (= 3.0.1-beta.5)
     - PINRemoteImage/Core
-  - Texture (2.3.2):
-    - Texture/PINRemoteImage (= 2.3.2)
-  - Texture/Core (2.3.2)
-  - Texture/PINRemoteImage (2.3.2):
-    - PINRemoteImage/iOS (= 3.0.0-beta.9)
+  - Texture (2.4):
+    - Texture/PINRemoteImage (= 2.4)
+  - Texture/Core (2.4)
+  - Texture/PINRemoteImage (2.4):
+    - PINRemoteImage/iOS (= 3.0.0-beta.11)
     - PINRemoteImage/PINCache
     - Texture/Core
 
 DEPENDENCIES:
-  - Texture (~> 2.3.2)
+  - Texture (~> 2.4)
 
 SPEC CHECKSUMS:
-  PINCache: a89c8f609232afac77128557bd12c861844423d7
+  PINCache: 98e7b1ef782824ad231ade51987c218b758c30d8
   PINOperation: ac23db44796d4a564ecf9b5ea7163510f579b71d
-  PINRemoteImage: e4e02e15a6f96cedbcef2abf1c9c1228dc9897d7
-  Texture: 18664254419f35de27af76399b3b265cbad5740a
+  PINRemoteImage: d71988f11914a050d6d4cf51efc4ad1de8c0a9d8
+  Texture: a5526314780eab35f642d956627f09316b9514e8
 
-PODFILE CHECKSUM: 080883bf5a156daa07f32d3dd99df6efeadb44be
+PODFILE CHECKSUM: 61819956f99236890c1d84a3097dd344cc04bb53
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.3.1
