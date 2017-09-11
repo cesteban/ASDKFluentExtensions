@@ -18,7 +18,7 @@ override func layoutSpecThatFits(_ constrainedSize: ASSizeRange) -> ASLayoutSpec
 
 Both `ASDisplayNode` and `ASLayoutSpec` subclasses can be wrapped within an `ASLayoutSpec` using this fluent syntax. Just start typing `.with` and look for the appropriate completion:
 
-![autocompletion with](https://d2ppvlu71ri8gs.cloudfront.net/items/0t1B3R321W1z0k2S2Y16/Screen%20Recording%202017-05-16%20at%2011.16%20PM.gif)
+![autocompletion with](Docs/ASDKFluentExtensionsUsageDemo.gif)
 
 All ASDKFluentExtensions methods return an object conforming to `ASLayoutElement`, so fluent layouts can be chained together. Furthermore, modifications of the `style` property can also be composed with layout definitions. This way the information flows in a meaningful order. Look at the modifications of `flexGrow` and `alignSelf` in the following example:
 
