@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'ASDKFluentExtensions'
-  spec.version      = '0.8'
+  spec.version      = '0.8.1'
   spec.license      = { :type => 'MIT' }
   spec.homepage     = 'https://github.com/cesteban/ASDKFluentExtensions'
   spec.authors      = { 'Cesar Estebanez' => 'cestebanez@gmail.com' }
