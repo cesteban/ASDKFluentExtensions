@@ -11,6 +11,6 @@ Pod::Spec.new do |spec|
 
   spec.public_header_files  = 'Source/*.h'
   spec.source_files = 'Source/*.{h,m}'
-  spec.dependency 'Texture', '~> 2.6'
+  spec.dependency 'Texture/Core', '~> 2.6'
 
 end
